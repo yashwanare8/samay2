@@ -27,7 +27,7 @@ function SignInPage() {
         try {
             const response = await fetch(
                 // "https://automatic-timetable-generator.onrender.com/api/signin",
-                "http://localhost:5000/api/signIn",
+                "https://samay2.onrender.com/api/signIn",
                 {
                     method: "POST",
                     headers: {

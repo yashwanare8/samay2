@@ -93,7 +93,7 @@ const Timetable = () => {
   const [timetableData, setTimetableData] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/generateTimeTable")
+    axios.get("https://samay2.onrender.com/api/generateTimeTable")
       .then(response => {
         console.log(response, "response");
         setTimetableData(response.data.timetable);
